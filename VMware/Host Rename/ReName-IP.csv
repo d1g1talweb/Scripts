@@ -1,3 +1,0 @@
-OldName,NewName,DomainName,OldMGMTIP,NewMGMTIP,VMotionIP,HostPassword,VCenterName,VCuser,VCpass,ClusterName
-oldname01.domain,newname01,domain,192.168.1.51,192.168.1.251,10.10.103.251,password,vcenter.home,user,password,Cluster1
-oldname02.domain,newname02,domain,192.168.1.52,192.168.1.252,10.10.103.252,password,vcenter.home,user,password,Cluster1
