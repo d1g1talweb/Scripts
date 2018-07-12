@@ -1,0 +1,1 @@
+Get-UcsServiceProfile -type instance | Where {$_.AssocState -eq "unassociated"} | Get-UcsVhba | Select Dn,Addr | Export-Csv C:\UCS\Domain1.csv
