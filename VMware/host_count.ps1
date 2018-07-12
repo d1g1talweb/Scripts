@@ -1,0 +1,1 @@
+Get-Cluster | Select Name, @{N="Host Count"; E={($_ | Get-VMHost).Count}}

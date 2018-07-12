@@ -1,0 +1,1 @@
+Get-VMHost | Get-VMHostNetwork | Select Hostname, VMKernelGateway -ExpandProperty VirtualNic | Where {$_.ManagementTrafficEnabled} | Select Hostname, IP | Export-Csv C:\vmware\qorc_pod3.csv
