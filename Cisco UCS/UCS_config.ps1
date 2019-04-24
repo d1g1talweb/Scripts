@@ -14,9 +14,9 @@ $mgmtNTP = ("10.10.1.1","10.10.2.1")
 # call home variables #
 $smtp_server = "smtp.d1g1talweb.com"
 $smtp_port = "25"
-$callhome_street_address = "38 Park Ave, Bloomfield, NJ 07028"
+$callhome_street_address = "## Street, City, State(xx) zipcode"
 $callhome_contact_name = "Robert Anderson"
-$callhome_contact_phone = "+2014563795"
+$callhome_contact_phone = "+15555555555"
 $callhome_email_to = "bobby@d1g1talweb.com"
 $callhome_email_from = "bobby@d1g1talweb.com"
 $callhome_email_reply = "bobby@d1g1talweb.com"
