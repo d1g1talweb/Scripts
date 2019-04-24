@@ -80,7 +80,7 @@ try {
 	
 	# Login to UCS
 	Write-Host "UCS: Logging into UCS"
-	Connect-Ucs -Path $ucs_session -Key $(ConvertTo-SecureString -Force -AsPlainText "det00ber")
+	Connect-Ucs -Path $ucs_session -Key $(ConvertTo-SecureString -Force -AsPlainText "password")
 	
 	# Login to VCenter
 	Write-Host "vC: Logging into vCenter: $vCenter"
